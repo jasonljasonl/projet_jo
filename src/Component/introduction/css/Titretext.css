@@ -1,0 +1,24 @@
+.intro {
+    background-image: url(../../../Images/roland-garros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.contenu-intro {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 150px;
+}
+
+.contenu-intro .texte h1 {
+    margin-bottom: 20px;
+}
+.contenu-intro .texte h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contenu-intro .texte #decouvrir {
+    width: 100%;
+}

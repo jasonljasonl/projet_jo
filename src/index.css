@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-align: justify;
+  line-height: 23px;
+  padding-top: 16px;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+
+  /* dégradé */
+  background: linear-gradient(94.49deg, #D0BE7C -4.55%, rgba(208, 190, 124, 0.53) 93.04%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+  margin-bottom: 0;
+  font-size: 21px;
+  text-align: start;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color : white;
+  font-size: 15px;
+  text-align: justify;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #D0BE7C;
+  text-align: start;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #D0BE7C;
+  text-align: start;
+  font-size: 13px;
+  font-weight: 700;
+
+}
+h5 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  width: 65px;
+  margin-top: 5px;
+}
+.btn {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 2px;
+  font-size: 18px;
+  background-color: #2B50AA;
+  border-radius: 10px;
+}
+
+.btn:hover, #btntext:hover {
+  background-color: #1c336b;
+}
+
+.contenu-intro {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.Menucontainer {
+  padding-top: 48px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.ContenuMenu {
+  width: 75px;
+  height: 75px;
+}
+.ContenuMenuBoutique {
+  width: 65px;
+  height: 65px;
+}
+.LienDesMenus {
+  display: flex;
+  justify-content: space-around;
+}
+
+.divbtntext {
+  text-align: end;
+}
+#btntext {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 2px;
+  font-size: 10px;
+  background-color: #2B50AA;
+  border-radius: 5px;
+  width: 150px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navnav {
+  display: none;
+}
+
+@media screen and (max-width: 365px) {
+  h1 {font-size: 18px;}
+  h2 {font-size: 14px;}
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1224px) {
+  .Menucontainer {
+    display: none;
+  }
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 68px;
+  }
+  h3 {
+    font-size: 42px;
+  }
+  h4 {
+    font-size: 38px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 24px;
+  }
+  #btntext {
+    width: 200px;
+    font-size: 16px;
+  }
+  .navnav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul {  
+    height: 50px;
+    margin: 0 auto 0 auto;
+    margin-left: auto;
+    background-image: url("../src/Images/fond.svg");
+    background-size: 800px;
+    background-repeat: no-repeat;
+    width: 800px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+}
+}

@@ -1,0 +1,130 @@
+.article-1 {
+    height: 50vh;
+    background-image: url(../../../Images/paris-olympics-2024.jpeg);
+    background-position: right;
+    background-size: cover;
+    border-radius : 0 0 50px 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 120px;
+}
+.article-1 div h1 {
+    margin-bottom: 5px;
+}
+.article-2, .article-2Accueil  {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    margin-bottom: 32px;
+}
+
+#imageAccueilArticle2 {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.Article3textbtn, .Article3textbtnAccueil {
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+#imageAccueilArticle2 {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#regle-titre, #regle-titreAccueil  {
+    color: white;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.article-3, .article-3Accueil {
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #D0BE7C;
+}
+
+iframe {
+    width: 100%;
+}
+#videoYtb {
+    margin-top: 32px;
+}
+.article-4 {
+    display: none;
+}
+
+
+/********************** PARTIE RESPONSIVE **********************/
+
+@media screen and (min-width: 1224px) {
+    .article-1 {
+        border-radius: 0;
+        height: 1000px;
+        background-image: url(../../../Images/paris-olympics-origin.jpeg);
+        border: white 24px solid;
+    }
+    .article-1 h1, h2 {
+        display: none;
+    }
+    .article-2Accueil {
+        display: flex;
+    }
+    .article-3Accueil {
+        margin-top: -560px;
+        position: relative;
+        width: 80%;
+    }
+    #article-2-gauche {
+        width: 50%;
+        padding: 40px;
+        padding-right: 80px;
+    }
+    #imageAccueilArticle2 {
+        width: 50%;
+        background-size: cover;
+        height: 1100px;
+        margin-top: 0;
+    }
+    #regle-titreAccueil {
+        font-size: 42px;
+        text-align: end;
+    }
+
+    #videoYtb {
+        display: none;
+    }
+    #article-3-regle {
+        padding-left: 30%;
+        padding-right: 5%;
+        padding-bottom: 72px;
+    }
+    .article-4 {
+        display: block;
+        margin-top: 200px;
+    }
+    .article-4 h4 {
+        margin-left: 24px;
+    }
+    iframe {
+        height: 700px;
+    }
+    #btntext {
+        float: right;
+    }
+    #videoYtb-2 {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .FadeGauche{
+        position: relative;
+        transform: translateX(-300px);
+        opacity: 0;
+        transition: 1s all ease;
+      }
+      .FadeGauche.active{
+        transform: translateX(0);
+        opacity: 1;
+      }
+    
+}

@@ -1,0 +1,65 @@
+#article-1-histoire {
+    background-image: url(../../../Images/boxe-ancienne-fond.jpg);
+    background-position: center;
+}
+
+.images-triple {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+#image1, #image2, #image3 {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+#image1 img, #image2 img, #image3 img {
+    height: 100%;
+}
+#image3 {
+
+    background-position: initial;
+}
+
+#gant-ancien {
+    background-image: url('../../../Images/gant-anc.png');
+    background-size: cover;
+    background-position:center;
+    height: 200px;
+}
+
+#logo-jo {
+    margin-top: 32px;
+    background-image: url('../../../Images/logojo.png');
+    height: 100px;
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+#histoire-texte { 
+    margin-bottom: 24px;
+}
+
+/********************** PARTIE RESPONSIVE **********************/
+
+@media screen and (min-width: 1224px) {
+    #article-1-histoire {
+        background-image: url(../../../Images/boxe-ancienne.jpg);
+    }
+    .images-triple {
+        justify-content: space-evenly;
+    }
+    #image1, #image2, #image3 {
+        width: 300px;
+        height: 425px;
+    }
+    #gant-ancien {
+        height: 40vh;
+    }
+    #logo-jo {
+        margin-top: 64px;
+        height: 200px;
+    }
+}

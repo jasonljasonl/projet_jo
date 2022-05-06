@@ -1,0 +1,23 @@
+.navbar-site {
+    z-index: 99;
+    position: relative;
+}
+
+.navnav ul {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navnav ul li {
+    margin-top: 10px;
+}
+
+.navnav ul li a {
+    color: black;
+    font-family:'Poppins', sans-serif;
+}
+.navnav ul li a:hover {
+    color: #D8C891;
+}
